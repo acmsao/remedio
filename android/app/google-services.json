@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "1009599705009",
+    "firebase_url": "https://medicamentos-84991-default-rtdb.firebaseio.com",
+    "project_id": "medicamentos-84991",
+    "storage_bucket": "medicamentos-84991.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009599705009:android:e035a83af11bb0ed911790",
+        "android_client_info": {
+          "package_name": "com.example.medicamentos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009599705009-usf31blu09g0bj08ekhh2jld3u8ofi3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medicamentos",
+            "certificate_hash": "5c1af1a6143f51e55da669fb3d9fa8ae56a87c00"
+          }
+        },
+        {
+          "client_id": "1009599705009-it8jq2k7qlrvl80nf0tm4h5b2e9v5uoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrI31pyGyDTZVSdBazFjYm7dInWOGKtQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009599705009-it8jq2k7qlrvl80nf0tm4h5b2e9v5uoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009599705009:android:c5a9a1bf09f2557d911790",
+        "android_client_info": {
+          "package_name": "com.example.remedio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009599705009-it8jq2k7qlrvl80nf0tm4h5b2e9v5uoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrI31pyGyDTZVSdBazFjYm7dInWOGKtQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009599705009-it8jq2k7qlrvl80nf0tm4h5b2e9v5uoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
