@@ -22,10 +22,7 @@ class _PrincipalState extends State<Principal> {
     return Scaffold(
       body: PageView(
         controller: pageViewController,
-        children: const [
-          MyHomePage(title: "Controle de Medicamentos"),
-          Adicionar()
-        ],
+        children: const [MyHomePage(), Adicionar()],
       ),
       bottomNavigationBar: AnimatedBuilder(
           animation: pageViewController,
@@ -36,7 +33,10 @@ class _PrincipalState extends State<Principal> {
                 backgroundColor: Colors.black,
                 currentIndex: pageViewController.page?.round() ?? 0,
                 onTap: (index) {
-                  pageViewController.jumpToPage(index);
+                  pageViewController.animateToPage(index,
+                      duration: const Duration(milliseconds: 800),
+                      curve: Curves.easeInQuart);
+                  //pageViewController.jumpToPage(index);
                 },
                 items: const [
                   BottomNavigationBarItem(

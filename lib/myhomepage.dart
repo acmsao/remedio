@@ -4,9 +4,8 @@ import 'package:flutter/material.dart';
 import 'db_firestore.dart';
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
+  const MyHomePage({Key? key}) : super(key: key);
 
-  final String title;
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -25,9 +24,9 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           leading: const Icon(Icons.medication),
           backgroundColor: Colors.black,
-          title: Text(
-            widget.title,
-            style: const TextStyle(color: Colors.white),
+          title: const Text(
+            "Controle de Medicamentos",
+            style: TextStyle(color: Colors.white),
           ),
         ),
         body: Stack(children: [

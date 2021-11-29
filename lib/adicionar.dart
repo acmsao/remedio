@@ -55,10 +55,9 @@ class _AdicionarState extends State<Adicionar> {
                   labelText: 'Intervalo',
                 ),
               ),
-              const Padding(padding: EdgeInsets.all(30)),
+              const Padding(padding: EdgeInsets.all(10)),
               ElevatedButton.icon(
                 onPressed: () {
-                  
                   snapshot.add({
                     'remedio': remedio.text,
                     'horario': primeiro.text,
@@ -67,6 +66,7 @@ class _AdicionarState extends State<Adicionar> {
                   remedio.clear();
                   primeiro.clear();
                   intervalo.clear();
+                 
                 },
                 icon: const Icon(Icons.add),
                 label: const Text('Adicionar'),
